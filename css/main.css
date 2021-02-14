@@ -2618,7 +2618,7 @@ ul.breadcrumb li:last-child {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #b5ff7f;
+  background: #0593ff;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2637,14 +2637,4 @@ ul.breadcrumb li:last-child {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-body {
-  background: var(--body-bg-color);
-  color: var(--text-color);
-  font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  font-size: 1em;
-  line-height: 2;
-  min-height: 100%;
-  position: relative;
-  transition: all 0.2s ease-in-out;
 }
